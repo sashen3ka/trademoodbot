@@ -20,7 +20,7 @@ export default function App() {
       return;
     }
 
-    fetch("http://localhost:8000/verify", {
+    fetch("https://web-production-40d6f7.up.railway.app/verify", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ initData })
